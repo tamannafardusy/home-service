@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Header</title>
+</head>
+<body>
+    <header class="bg-light  p-3 sticky-top shadow-lg">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+              <a class=" navbar-brand fw-bolder text-dark" href="#">Home <small class="fst-italic fw-lighter">Service</small> </a>
+                
+            <input class="form-control w-25 border border-dark" list="datalistOptions" id="exampleDataList" placeholder="Find your services here...">
+                <datalist id="datalistOptions">
+                    <option value="AC Servicing">
+                    <option value="Home Cleaning">
+                    <option value="Painting Service">
+                    <option value="Daily Mail">
+                    <option value="Plumbing & Sanitary Services">
+                </datalist>
+                
+
+                <div class="d-flex fw-bolder">
+                    <div class="dropdown pe-4">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          All Services
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">AC Repair Service</a></li>
+                          <li><a class="dropdown-item" href="#">Appliance Repair</a></li>
+                          <li><a class="dropdown-item" href="#">Car Care Services</a></li>
+                          <li><a class="dropdown-item" href="#">Cleaning & Pest Control</a></li>
+                          <li><a class="dropdown-item" href="#">Trips & Cares</a></li>
+                        </ul>
+                      </div>
+                    <button class="btn btn-dark">Login</button>
+                </div>
+            </div>
+          </nav>
+    </header>
+</body>
+</html>
